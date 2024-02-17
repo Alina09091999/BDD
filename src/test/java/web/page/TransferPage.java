@@ -1,4 +1,4 @@
-package ru.netology.web.page;
+package web.page;
 
 public class TransferPage {
 }

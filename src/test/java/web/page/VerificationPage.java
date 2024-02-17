@@ -1,6 +1,10 @@
-package ru.netology.web.page;
+package web.page;
 
-import ru.netology.web.data.DataHelper;
+import com.codeborne.selenide.SelenideElement;
+import web.data.DataHelper;
+
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
 
 public class VerificationPage {
     private final SelenideElement codeField = $("[data-test-id=code] input");
