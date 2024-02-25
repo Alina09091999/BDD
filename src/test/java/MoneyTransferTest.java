@@ -6,7 +6,7 @@ import web.page.LoginPage;
 
 import java.nio.file.Path;
 
-import static java.nio.channels.FileChannel.open;
+import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static web.data.DataHelper.*;
